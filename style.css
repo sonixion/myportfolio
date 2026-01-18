@@ -1151,6 +1151,13 @@ body {
         gap: 24px;
     }
 
+    /* Make Sound Toggle Always Visible on Mobile */
+    .sound-toggle {
+        opacity: 1 !important;
+        transform: translateY(0) !important;
+        background: rgba(0, 0, 0, 0.6);
+    }
+
     .filter-controls {
         flex-wrap: wrap;
     }
