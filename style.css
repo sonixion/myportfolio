@@ -1114,10 +1114,6 @@ body {
         /* Keep default shadow */
     }
 
-    .grid-item:active {
-        transform: scale(0.98);
-    }
-
     /* Fix Clipping Issue */
     .card-visual {
         width: 100%;
@@ -1143,8 +1139,6 @@ body {
         border-radius: 20px;
     }
 
-
-
     .work-header {
         flex-direction: column;
         align-items: flex-start;
@@ -1156,6 +1150,8 @@ body {
         opacity: 1 !important;
         transform: translateY(0) !important;
         background: rgba(0, 0, 0, 0.6);
+        display: flex !important;
+        /* Ensure it is not hidden */
     }
 
     .filter-controls {
